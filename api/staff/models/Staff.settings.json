@@ -1,0 +1,47 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "staff",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "default": "",
+      "type": "string"
+    },
+    "email": {
+      "default": "",
+      "type": "email"
+    },
+    "provider": {
+      "default": "",
+      "type": "string"
+    },
+    "password": {
+      "default": "",
+      "type": "password"
+    },
+    "resetPasswordToken": {
+      "default": "",
+      "type": "string"
+    },
+    "confirmed": {
+      "default": false,
+      "type": "boolean"
+    },
+    "blocked": {
+      "default": false,
+      "type": "boolean"
+    },
+    "permission": {
+      "model": "permission",
+      "via": "staff",
+      "dominant": true,
+      "plugin": "users-permissions"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "onboard",
+    "description": "The details of onboard candidates."
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "FirstName": {
+      "default": "",
+      "type": "string"
+    },
+    "LastName": {
+      "default": "",
+      "type": "string"
+    },
+    "Email": {
+      "default": "",
+      "type": "email"
+    },
+    "MobileNumber": {
+      "default": "",
+      "type": "integer"
+    },
+    "ReportTo": {
+      "default": "",
+      "type": "string"
+    },
+    "StartDate": {
+      "default": "",
+      "type": "date"
+    },
+    "Salary": {
+      "default": "",
+      "type": "integer"
+    },
+    "Group": {
+      "default": "",
+      "type": "string"
+    },
+    "I9": {
+      "default": "",
+      "type": "string"
+    },
+    "Sign": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

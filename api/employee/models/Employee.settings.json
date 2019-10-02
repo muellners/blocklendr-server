@@ -1,0 +1,93 @@
+{
+  "connection": "default",
+  "collectionName": "employee",
+  "info": {
+    "name": "employee",
+    "description": "All the detailed description of employees in an organisation,"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Type": {
+      "default": "",
+      "type": "string"
+    },
+    "Name": {
+      "default": "",
+      "type": "string"
+    },
+    "Email": {
+      "default": "",
+      "type": "email"
+    },
+    "Address": {
+      "default": "",
+      "type": "string"
+    },
+    "Phone": {
+      "default": "",
+      "type": "string"
+    },
+    "DOB": {
+      "default": "",
+      "type": "date"
+    },
+    "SSN": {
+      "default": "",
+      "type": "integer"
+    },
+    "Nickname": {
+      "default": "",
+      "type": "string"
+    },
+    "I9": {
+      "default": "",
+      "type": "string"
+    },
+    "Salary": {
+      "default": "",
+      "type": "integer"
+    },
+    "ReportTo": {
+      "default": "",
+      "type": "string"
+    },
+    "CustomField": {
+      "default": "",
+      "type": "json"
+    },
+    "Group": {
+      "default": "",
+      "type": "string"
+    },
+    "JobStatus": {
+      "default": "",
+      "type": "string"
+    },
+    "WeeklyHours": {
+      "default": "",
+      "type": "integer"
+    },
+    "PriorEmploymentHireDate": {
+      "default": "",
+      "type": "date"
+    },
+    "PriorEmploymentStartDate": {
+      "default": "",
+      "type": "date"
+    },
+    "PriorEmploymentEndDate": {
+      "default": "",
+      "type": "date"
+    },
+    "WelcomeDate": {
+      "default": "",
+      "type": "date"
+    },
+    "LastName": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

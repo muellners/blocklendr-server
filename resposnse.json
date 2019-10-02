@@ -1,0 +1,48 @@
+[
+    {
+        "id": 4,
+        "user_id": 5,
+        "service_instance_id": 4,
+        "invoice_id": "in_1EAcdeJW1UGgnrRzmALZ7mSQ",
+        "subscription": "sub_EduSnKVhGquczM",
+        "charge": null,
+        "description": null,
+        "amount_due": 0,
+        "discount": null,
+        "attempt_count": 0,
+        "closed": true,
+        "currency": "usd",
+        "forgiven": false,
+        "date": "1551789894",
+        "next_attempt": null,
+        "paid": true,
+        "period_end": "1551789894",
+        "period_start": "1551789894",
+        "receipt_number": null,
+        "starting_balance": 0,
+        "ending_balance": 0,
+        "total": 0,
+        "livemode": false,
+        "created_at": "2019-03-05T13:15:06.135Z",
+        "updated_at": "2019-03-05T13:15:06.135Z",
+        "references": {
+            "user_invoice_lines": [
+                {
+                    "id": 4,
+                    "invoice_id": 4,
+                    "line_item_id": "sub_EduSnKVhGquczM",
+                    "amount": 0,
+                    "currency": "usd",
+                    "description": "Trial period for HrDeck",
+                    "proration": false,
+                    "quantity": 1,
+                    "type": "subscription",
+                    "livemode": false,
+                    "created_at": "2019-03-05T13:15:06.179Z",
+                    "updated_at": "2019-03-05T13:15:06.179Z"
+                }
+            ],
+            "transactions": []
+        }
+    }
+]

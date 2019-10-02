@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "plan",
+  "info": {
+    "name": "plan",
+    "description": "Plans for different customer needs."
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "Details": {
+      "default": "",
+      "type": "string"
+    },
+    "user": {
+      "default": "",
+      "type": "string"
+    },
+    "charge": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

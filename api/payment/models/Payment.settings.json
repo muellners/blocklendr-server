@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "payment",
+  "info": {
+    "name": "payment",
+    "description": "The payment details of all users."
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "default": "",
+      "type": "string"
+    },
+    "user_id": {
+      "default": "",
+      "type": "string"
+    },
+    "plan_name": {
+      "default": "",
+      "type": "string"
+    },
+    "expire_date": {
+      "default": "",
+      "type": "date"
+    }
+  }
+}

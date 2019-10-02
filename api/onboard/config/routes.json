@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/onboards",
+      "handler": "Onboard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onboards/count",
+      "handler": "Onboard.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onboards/:_id",
+      "handler": "Onboard.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/onboards",
+      "handler": "Onboard.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/onboards/:_id",
+      "handler": "Onboard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/onboards/:_id",
+      "handler": "Onboard.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
