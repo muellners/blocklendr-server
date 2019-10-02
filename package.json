@@ -21,8 +21,8 @@
   "dependencies": {
     "lodash": "4.x.x",
     "strapi": "3.0.0-alpha.14.4.0",
+    "strapi-email-nodemailer": "^0.2.1",
     "strapi-hook-mongoose": "3.0.0-alpha.14.4.0",
-    "strapi-provider-email-sendgrid": "^3.0.0-alpha.25.2",
     "stripe": "^7.9.1"
   },
   "author": {
