@@ -6,8 +6,8 @@ Blocklendr server for admin and user accounts with Metamask wallet integration.
 
 ## Functions
 
-User Authentication
-Metamask wallet  
+User Authentication,
+Metamask wallet,
 Email support
 
 ## Before running
