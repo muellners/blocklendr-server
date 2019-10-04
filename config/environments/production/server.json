@@ -1,5 +1,5 @@
 {
-  "host": "18.237.85.135",
+  "host": "www.cipherfit.com",
   "port": "${process.env.PORT || 1337}",
   "proxy": {
     "enabled": false
