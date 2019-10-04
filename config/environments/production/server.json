@@ -1,8 +1,11 @@
 {
-  "host": "www.cipherfit.com",
+  "host": "localhost",
   "port": "${process.env.PORT || 1337}",
   "proxy": {
-    "enabled": false
+    "enabled": true,
+    "ssl": true,
+    "host": "www.cipherfit.com",
+    "port": 80
   },
   "autoReload": {
     "enabled": false
